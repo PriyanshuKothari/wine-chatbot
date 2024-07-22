@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 # Ensure you have set the OPENAI_API_KEY in your Heroku config
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = os.getenv("sk-None-BGPsJcmSNBXkIdNzM1YHT3BlbkFJghlLJjAQbvOaMWXlICPt")
 
 @app.route('/')
 def home():
